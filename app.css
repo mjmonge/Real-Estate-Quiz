@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Courier, Arial, Helvetica;
+  color: black;
+  margin: 0;
+  background: cover;
+  background-color: gold;
+}
+
+header {
+  padding: 55px 0 0 0;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question-and-score {
+  font-size: 18px;
+  font-weight: 480px;
+  text-align: center;
+}
+
+button {
+  margin-top:10px;
+  height: auto;
+  font-size: 24px;
+  font-weight: 340;
+  text-align: center;
+  color:black;
+  background: #ffee00;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:3px;
+}
+
+.start-screen {
+  padding: 15px;
+}
+
+.start-screen, .question-form {
+  width:80%;
+  margin: 15px auto 0 auto;
+  background:rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+fieldset {
+  border: 2px orange solid;
+}
+
+legend {
+  font-weight: 320;
+  font-size: 18px;
+  padding: 5px 0;
+  margin: 25px auto 0 auto;
+  display: block;
+  text-align: center;
+  background-color: rgb(253, 249, 18);
+}
+
+.question-form .question {
+  margin-bottom: 20px;
+  padding: 0 2%;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+fieldset span {
+  display: block;
+}
+
+label {
+  font-size:18px;
+}
+
+.options span {
+  display:block;
+  border-radius:5px;
+}
+
+.right-answer {
+ background: honeydew;
+ padding: 10px 20px;
+ margin: 5px 20px;
+ border:2px solid green;
+}
+
+.wrong-answer {
+  background: honeydew;
+  padding: 10px;
+  margin: 5px 20px;
+  border:2px solid red;
+}
+
+.question-form button {
+  float:right;
+}
+
+button:hover:enabled,
+button:focus:enabled{
+  background-color: #ffee00;
+  -webkit-transition: background 0.1s;
+  -moz-transition: background 0.1s;
+  -o-transition: background 0.1s;
+  transition: background 0.1s;
+}
+
+button:disabled {
+  opacity:0.5;
+}
+
+#next-question-btn {
+  display: none;
+}
