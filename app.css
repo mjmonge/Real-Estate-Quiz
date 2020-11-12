@@ -7,7 +7,7 @@ body {
   color: black;
   margin: 0;
   background: cover;
-  background-color: gold;
+  background-color: #ffcc00;
 }
 
 header {
@@ -17,6 +17,7 @@ header {
 
 h1 {
   text-align: center;
+  font-size: 48px;
 }
 
 .question-and-score {
@@ -32,7 +33,7 @@ button {
   font-weight: 340;
   text-align: center;
   color:black;
-  background: #ffee00;
+  background: #ffcc00;
   border: 0;
   cursor: pointer;
   margin-bottom: 0;
@@ -51,7 +52,7 @@ button {
 }
 
 fieldset {
-  border: 2px orange solid;
+  border: 2px #ffcc00 solid;
 }
 
 legend {
@@ -60,8 +61,9 @@ legend {
   padding: 5px 0;
   margin: 25px auto 0 auto;
   display: block;
+  color: white;
   text-align: center;
-  background-color: rgba(253, 249, 18, 0.60);
+  background-color: #003366;
 }
 
 .question-form .question {
