@@ -60,9 +60,8 @@ legend {
   padding: 5px 0;
   margin: 25px auto 0 auto;
   display: block;
-  color: white;
   text-align: center;
-  background-color: rgb(253, 249, 18);
+  background-color: rgba(253, 249, 18, 0.60);
 }
 
 .question-form .question {
